@@ -21,7 +21,7 @@ void Imprimir()
     {
         for (int coluna = 0; coluna < 3; coluna++)
         {
-            Console.Write("|    {0}     | ", table[linha, coluna].ToString("F1"));
+            Console.Write("|   {0}   | ", table[linha, coluna].ToString("F1"));
         }
         Console.WriteLine();
     }
